@@ -34,20 +34,20 @@ header {
 
 .left {
     background: rgb(0, 0, 0);
-    padding: 7em 0 7em 0;
+    padding: 15em 0 10em 0;
     flex: 1 1 100px;
     font-family: 'Abel', sans-serif;
 }
 
 main{
     background: rgb(0, 0, 0);
-    padding: 3em 0 3em 0;
+    padding: 2em 0 2em 0;
     flex: 1 1 100px;
 }
 
 .right{
     background: rgb(0, 0, 0);
-    padding: 7em 0 7em 0;
+    padding: 15em 0 10em 0;
     flex: 1 1 100px;
     font-family: 'Abel', sans-serif;
 }
