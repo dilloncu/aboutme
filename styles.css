@@ -7,8 +7,9 @@
     background-color: rgb(0, 0, 0);
     padding: 30px;
     font-size: 20px;
-    color:#000000;
+    color:#ffffff;
     font-family: 'Abel', sans-serif;
+    
 
 }
 
@@ -31,10 +32,11 @@ header {
     flex: 1;
 }
 
-.left{
+.left {
     background: rgb(0, 0, 0);
-    padding: 2em 0 2em 0;
+    padding: 7em 0 7em 0;
     flex: 1 1 100px;
+    font-family: 'Abel', sans-serif;
 }
 
 main{
@@ -45,8 +47,9 @@ main{
 
 .right{
     background: rgb(0, 0, 0);
-    padding: 3em 0 3em 0;
+    padding: 7em 0 7em 0;
     flex: 1 1 100px;
+    font-family: 'Abel', sans-serif;
 }
 
 footer{
@@ -94,6 +97,11 @@ h2 {
     font-family: 'Abel', sans-serif;
     font-size: 150%;
 }
-     
+  
+
+.logo23 {
+    font-family: Rock 3D;
+    color: white;
+}
 
 
