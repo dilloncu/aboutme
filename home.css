@@ -1,0 +1,113 @@
+
+
+.ulstyle {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 90px;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 20px;
+    color:#ffffff;
+    font-family: 'Abel', sans-serif;
+    
+
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Abel', sans-serif;
+}
+
+header {
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    background: rgb(0, 0, 0);
+    padding: 15em 0 10em 0;
+    flex: 1 1 100px;
+    font-family: 'Abel', sans-serif;
+}
+
+main{
+    background: rgb(0, 0, 0);
+    padding: 2em 0 2em 0;
+    flex: 1 1 100px;
+}
+
+.right{
+    background: rgb(0, 0, 0);
+    padding: 15em 0 10em 0;
+    flex: 1 1 100px;
+    font-family: 'Abel', sans-serif;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    padding: 1em 0 1em 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 50%;
+}
+
+body{
+    height: 95vh;
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    color:rgb(255, 252, 252);
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    width:80th;
+    margin:0;
+    }
+
+ol {
+    list-style-type: none;   
+    font-size: 20px; 
+}
+
+p  {
+    list-style-type: none;  
+    font-display: center;  
+    font-size: 15px; 
+    font-family: 'Abel', sans-serif;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 4em 0 4em 0;
+    }
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 150%;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Abel', sans-serif;
+  }
